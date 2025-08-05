@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 2rem; /* para separar del status bar como en tu diseño original */
+}
+
+
+.header-title {
+  font-weight: 700;
+  font-size: 1.5rem; 
+  color: var(--color-fuente); 
+  margin: 0;
+}
+
+.header-subtitle {
+  margin-top: 0.25rem; 
+  color: var(--text-gray-500);
+  font-size: 0.875rem; 
+  margin-bottom: 0;
+}
+
+.header-logo {
+  width: 5rem;
+  height: 5rem; 
+  background-image: url("./src/assets/images/laucha-logo.jpg");
+  border-radius: 9999px; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* MEDIA QUERIES */
+
+/* Para pantallas >= 640px (sm) */
+@media (min-width: 640px) {
+  .header {
+    padding: 1.5rem; /* 24px */
+    padding-top: 4rem;
+  }
+
+  .header-title {
+    font-size: 1.875rem; /* 30px */
+  }
+
+  .header-subtitle {
+    font-size: 1rem; /* 16px */
+  }
+
+  .header-logo {
+    width: 3.5rem; /* 56px */
+    height: 3.5rem; /* 56px */
+  }
+
+  .header-logo span {
+    font-size: 0.875rem; /* 14px */
+  }
+}

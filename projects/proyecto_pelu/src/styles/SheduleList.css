@@ -1,0 +1,23 @@
+.shedule-group{
+    width: 100%;
+}
+
+.shedule-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.shedule-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    color: green;
+}
+
+.shedule-alert{
+    padding: 5px;
+}

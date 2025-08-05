@@ -1,0 +1,11 @@
+.shedule-add-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.shedule-day-group, .shedule-hour-group {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}

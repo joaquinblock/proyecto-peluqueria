@@ -1,0 +1,20 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;      /* para que h2 y botón estén uno debajo del otro */
+  align-items: center;         /* centra horizontalmente */
+  justify-content: center;     /* centra verticalmente */
+  height: 100vh;               /* ocupa toda la altura de la pantalla */
+}
+
+button {
+  padding: 0.5rem 1rem;
+  width: auto;                 /* asegura que no se estire */
+}
+
+.login-title{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-amber-900);
+  font-family: var(--font-headings);
+  margin: auto;
+}

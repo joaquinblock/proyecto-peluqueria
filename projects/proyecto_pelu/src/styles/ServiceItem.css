@@ -1,0 +1,25 @@
+.service-item{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.service-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-actions{
+    display: flex;
+    gap: 5px;
+}
+
+.btn-icon{
+    background-color: white;
+    padding: 0.5rem;
+    border: none;
+}

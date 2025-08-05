@@ -1,0 +1,53 @@
+/* Elimina el rojo de los fines de semana por defecto */
+.react-calendar__month-view__days__day--weekend {
+  color: inherit;
+}
+
+.react-calendar__tile--active {
+    background: var(--color-acento); 
+    color: var(--color-terciario); 
+    font-weight: bold ;
+    border-radius: 10px ;      
+    padding: 6px ;     
+}
+
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+    background: var(--color-acento) ;
+}
+
+.react-calendar__tile--hasActive {
+    background: var(--color-secundario) ;
+    border: 1px solid var(--color-acento);
+}
+
+.react-calendar {
+    font-family: var(--fuente-principal);
+    border: 1px solid var(--color-gray-50) ;
+    width: 400px;
+    border-radius: 10px;
+    background-color:var(--color-neutral);       
+}
+
+
+
+
+.react-calendar__tile--now {
+  background-color: var(--color-gray-50);
+  color: var(--color-acento); 
+  font-weight: bold;
+}
+
+.react-calendar__tile--now:enabled:hover, .react-calendar__tile--now:enabled:focus {
+    background: var(--color-acento) ;
+    color: var(--color-terciario);
+}
+
+
+.react-calendar__navigation__label{
+    font-family: var(--fuente-principal) !important;
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.service-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-name {
+    font-weight: 500;
+}
+
+.service-price {
+    color: var(--accent-color);
+    font-size: 0.9rem;
+}
+
+.service-actions .btn-icon { margin-left: 0.5rem; }
+    .service-actions .btn-icon.edit:hover { color: var(--accent-color); }
+    .service-actions .btn-icon.delete:hover { color: #d32f2f; }

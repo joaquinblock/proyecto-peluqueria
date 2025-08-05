@@ -1,0 +1,25 @@
+.grid-turnos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.turno-btn{
+  padding: 0.75rem;                 
+  border-radius: 0.75rem;           
+  background-color:var(--color-neutral-2);        
+  color: var(--text-gray-700);
+  border: none;
+  font-family: inherit;                   
+  font-weight: var(----font-semibold);                 
+  transition: background-color 0.1s ease;
+}
+
+.turno-btn--seleccionado{             
+    background-color: var(--color-acento);               
+    color: var(--color-terciario);                                       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    outline: 2px solid var(--color-acento);             
+    outline-offset: 2px;                 
+    transition: all 0.1s ease;       
+}
